@@ -1,0 +1,18 @@
+@import "~papercss/src/styles.scss";
+
+main {
+  margin-top: 100px;
+}
+input.is-invalid {
+  border: 2px solid $danger;
+}
+.red {
+  color: $danger;
+}
+.right {
+  float: right;
+}
+.wide {
+  width: 100%;
+}
+
