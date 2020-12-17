@@ -51,5 +51,6 @@
   "Delete account": "Supprimer le compte",
   "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.": "Une fois que votre compte sera supprimé toutes ses ressources seront effacées de façon permanente. Avant de supprimer votre compte veuillez télécharger toutes les données et informations que vous désirez conserver.",
   "Profile": "Profil",
-  "<- Back": "<- Retour"
+  "<- Back": "<- Retour",
+  "Remember Me": "Se rappeler de moi"
 }

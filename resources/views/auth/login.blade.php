@@ -11,6 +11,13 @@
 
             @include('partials.forms.password')
 
+            <div class="form-group">
+                <label for="remember" class="paper-check">
+                    <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}> 
+                    <span>@lang('Remember Me')</span>
+                </label>
+            </div>
+
             @include('partials.forms.submit', [ 'text' => 'Login', ])
 
             @if (Route::has('password.request'))
